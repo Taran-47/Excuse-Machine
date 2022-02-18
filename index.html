@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excuses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Let's get an excuse</h1>
+
+    <label class= "choose" for="categories">Choose a category:</label>
+
+    <select name="categories" id="categories">
+        <option value="any">Any</option>
+        <option value="family">Family</option>
+        <option value="office">Office</option>
+        <option value="children">Children</option>
+        <option value="college">College</option>
+        <option value="party">Party</option>
+    </select>
+   
+    <label class= "choose" for="numbers">Choose a Number:</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="10">
+    <br>
+    <br>
+    <button type="button" id="myBtn">Click Me!</button>
+    <ul id="demo">
+
+    </ul>
+</div>
+    <div class="footer">
+        <h2>How does it works?</h2>
+        <p>This is an intresting website to find excuses for various categories.</p>
+        <p>You can specify the category you want to find the excuse about and specify the number of
+             excuses you want to find about that category(Ranging from 1 to 10).</p>
+         <p>Default value of category is set to <b>Any</b> and default value of number is set to <b>1</b> .</p>
+
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
