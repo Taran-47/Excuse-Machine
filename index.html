@@ -9,26 +9,25 @@
 </head>
 <body>
     <div class="container">
-    <h1>Let's get an excuse</h1>
+    <h1>Let's read a useless fun fact</h1>
 
     <div class="selection">
-    <label class= "choose" for="categories">Choose a category:</label>
+    <label class= "choose" for="language">Choose a Language:</label>
 
     
 
-    <select name="categories" id="categories">
-        <option value="any">Any</option>
-        <option value="family">Family</option>
-        <option value="office">Office</option>
-        <option value="children">Children</option>
-        <option value="college">College</option>
-        <option value="party">Party</option>
+    <select name="language" id="language">
+        <option value="english">English</option>
+        <option value="German">German</option>
     </select>
     </div>
     <br>
     <div class="choosing">
-    <label class= "choose" for="numbers">Choose a Number:</label>
-    <input type="number" id="quantity" name="quantity" min="1" max="10">
+    <label class= "choose" >Choose a Category:</label>
+    <select name="category" id="category">
+        <option value="random">Random</option>
+        <option value="today">Today</option>
+    </select>
 </div>
     <br>
     <button type="button" id="myBtn">Click Me!</button>
@@ -38,10 +37,10 @@
 </div>
     <div class="footer">
         <h2>How does it works?</h2>
-        <p>This is an intresting website to find excuses for various categories.</p>
-        <p>You can specify the category you want to find the excuse about and specify the number of
-             excuses you want to find about that category(Ranging from 1 to 10).</p>
-         <p>Default value of category is set to <b>Any</b> and default value of number is set to <b>1</b> .</p>
+        <p>This is an intresting website to find fun facts in two different language.</p>
+        <p>You can specify the language you want to find the fun fact in and specify the category of
+             fact. Category has two options of Random and Today, Random as justified by name gives a random fact and Today gives a new fun fact every new day. </p>
+         <p>Default value of Language is set to <b>English</b> and default value of category is set to <b>Random</b> .</p>
 
     
     </div>
